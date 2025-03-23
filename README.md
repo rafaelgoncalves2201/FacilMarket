@@ -15,23 +15,23 @@ pnpm dev
 bun dev
 ```
 
-# Testando
+## Testando
 
 Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-# Aonde editar
+## Aonde editar
 
 Você pode começar a editar a página modificando o arquivo app/page.js. A página será atualizada automaticamente conforme você edita o arquivo.
 
-# Usado
+## Usado
 
 Este projeto usa next/font para otimizar e carregar automaticamente a fonte Geist, uma nova família tipográfica da Vercel.
 
-# Estudos
+## Estudos
 
 Saiba mais Para aprender mais sobre Next.js, confira os seguintes recursos:
 
-# Documentação
+## Documentação
 
 Documentação do Next.js - Saiba mais sobre os recursos e a API do Next.js.
 

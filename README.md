@@ -11,7 +11,7 @@ git clone https://github.com/rafaelgoncalves2201/FacilMarket.git
 
 ### Começando Primeiro, execute o servidor de desenvolvimento:
 
-## Rodar pelo cmd ou terminal do  Vscode
+#### Rodar pelo cmd ou terminal do  Vscode
 ```
 npm run dev
 # ou

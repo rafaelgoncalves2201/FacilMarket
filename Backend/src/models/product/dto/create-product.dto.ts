@@ -7,6 +7,7 @@ import {
   IsNumber,
   IsOptional,
   IsString,
+  IsUUID,
 } from 'class-validator';
 import { Product } from '../entities/product.entity';
 
@@ -64,5 +65,6 @@ export class CreateProductDto extends OmitType(Product, [
    */
   @IsOptional()
   @IsArray()
+  @IsUUID("4", { each: true })  // Valida que cada item é um UUID
   categories?: string[];
 }

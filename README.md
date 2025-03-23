@@ -2,8 +2,8 @@ Este é um projeto Next.js inicializado com create-next-app.
 
 Começando
 Primeiro, execute o servidor de desenvolvimento:
-´´´
-bash
+
+```bash
 Copiar
 Editar
 npm run dev
@@ -14,7 +14,7 @@ pnpm dev
 # ou
 bun dev
 Abra http://localhost:3000 no seu navegador para ver o resultado.
-´´´
+```
 
 Você pode começar a editar a página modificando o arquivo app/page.js. A página será atualizada automaticamente conforme você edita o arquivo.
 

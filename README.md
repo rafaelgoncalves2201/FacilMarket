@@ -2,17 +2,23 @@
 
 ## Começando
 
+## Copia
+
+```
+Copie o codigo da seguinte forma:
+git clone https://github.com/rafaelgoncalves2201/FacilMarket.git
+
+```
+
 Começando Primeiro, execute o servidor de desenvolvimento:
 
-```Copiar
-Editar
+## Rodar pelo cmd ou terminal do  Vscode
+```
 npm run dev
 # ou
 yarn dev
 # ou
-pnpm dev
-# ou
-bun dev
+run dev
 ```
 
 ## Testando

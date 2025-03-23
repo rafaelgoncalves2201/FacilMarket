@@ -1,15 +1,15 @@
 # Este é um projeto Next.js inicializado com create-next-app.
 
-##Começando
+## Começando
 
-##Copia
+## Copia
 
-###Copie o codigo da seguinte forma:
+### Copie o codigo da seguinte forma:
 ```
 git clone https://github.com/rafaelgoncalves2201/FacilMarket.git
 ```
 
-###Começando Primeiro, execute o servidor de desenvolvimento:
+### Começando Primeiro, execute o servidor de desenvolvimento:
 
 ## Rodar pelo cmd ou terminal do  Vscode
 ```

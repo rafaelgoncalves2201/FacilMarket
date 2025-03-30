@@ -1,4 +1,4 @@
-# Este é um projeto Next.js inicializado com create-next-app.
+# Este é um projeto Next.js inicializado com create-next-app e Nest.js.
 
 ## Começando
 

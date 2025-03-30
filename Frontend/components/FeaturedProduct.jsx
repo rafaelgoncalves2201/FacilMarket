@@ -5,21 +5,27 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    image: assets.girl_with_headphone_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Experimente o Som Puro - Seus Fones de Ouvido Perfeitos Esperam por Você!",
+    offer: "Oferta por Tempo Limitado: 30% de Desconto",
+    buttonText1: "Comprar Agora",
+    buttonText2: "Saber Mais",
+    imgSrc: assets.header_headphone_image,
   },
   {
     id: 2,
-    image: assets.girl_with_earphone_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: "O Jogo de Outro Nível Começa Aqui - Descubra o PlayStation 5 Hoje!",
+    offer: "Corra, só restam poucos!",
+    buttonText1: "Compre Agora",
+    buttonText2: "Explorar Ofertas",
+    imgSrc: assets.header_playstation_image,
   },
   {
     id: 3,
-    image: assets.boy_with_laptop_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Poder Encontra Elegância - O Apple MacBook Pro Está Aqui Para Você!",
+    offer: "Oferta Exclusiva: 40% de Desconto",
+    buttonText1: "Peça Agora",
+    buttonText2: "Saiba Mais",
+    imgSrc: assets.header_macbook_image,
   },
 ];
 
@@ -27,7 +33,7 @@ const FeaturedProduct = () => {
   return (
     <div className="mt-14">
       <div className="flex flex-col items-center">
-        <p className="text-3xl font-medium">Featured Products</p>
+        <p className="text-3xl font-medium">Produtos em Destaque</p>
         <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
       </div>
 
@@ -45,7 +51,7 @@ const FeaturedProduct = () => {
                 {description}
               </p>
               <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded">
-                Buy now <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
+                Compre agora <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
               </button>
             </div>
           </div>

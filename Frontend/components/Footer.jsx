@@ -18,16 +18,16 @@ const Footer = () => {
             <h2 className="font-medium text-gray-900 mb-5">Compania</h2>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="hover:underline transition" href="#">Home</a>
+                <a className="hover:underline transition" href="#">Início</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">About us</a>
+                <a className="hover:underline transition" href="#">Sobre nós</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Contact us</a>
+                <a className="hover:underline transition" href="#">Contato</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Privacy policy</a>
+                <a className="hover:underline transition" href="#">Política de Privacidade</a>
               </li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
 
         <div className="w-1/2 flex items-start justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
+            <h2 className="font-medium text-gray-900 mb-5">Entre em contato</h2>
             <div className="text-sm space-y-2">
               <p>+551798098989</p>
               <p>suporte@facilmarket.com.br</p>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+        Copyright 2025 © FAcilMarket All Right Reserved.
       </p>
     </footer>
   );
